@@ -1,0 +1,626 @@
+{
+    "humano": {
+        "masculino": {
+            "inicio": [
+                "Al",
+                "Ber",
+                "Ced",
+                "Dar",
+                "Ed",
+                "Fer",
+                "Gar",
+                "Hen",
+                "Jar",
+                "Leo"
+            ],
+            "medio": [
+                "an",
+                "ar",
+                "en",
+                "er",
+                "or",
+                "ric",
+                "ald",
+                "win",
+                "mar",
+                "ton"
+            ],
+            "final": [
+                "do",
+                "ric",
+                "ton",
+                "son",
+                "ard",
+                "ian",
+                "er",
+                "ald",
+                "en",
+                "us"
+            ]
+        },
+        "femenino": {
+            "inicio": [
+                "Ana",
+                "Bel",
+                "Car",
+                "Dia",
+                "Ela",
+                "Fio",
+                "Gwen",
+                "Hel",
+                "Isa",
+                "Jul"
+            ],
+            "medio": [
+                "na",
+                "ria",
+                "lia",
+                "the",
+                "mar",
+                "len",
+                "beth",
+                "nor",
+                "sel",
+                "via"
+            ],
+            "final": [
+                "a",
+                "ia",
+                "elle",
+                "ine",
+                "ara",
+                "eth",
+                "lyn",
+                "ora",
+                "is",
+                "yn"
+            ]
+        }
+    },
+    "elfo": {
+        "masculino": {
+            "inicio": [
+                "Ael",
+                "Syl",
+                "Fae",
+                "Lyth",
+                "Eld",
+                "Aer",
+                "Thae",
+                "Val",
+                "Nyx",
+                "Cel"
+            ],
+            "medio": [
+                "ari",
+                "ion",
+                "dor",
+                "eth",
+                "iel",
+                "ora",
+                "ael",
+                "ryn",
+                "mir",
+                "thal"
+            ],
+            "final": [
+                "an",
+                "el",
+                "or",
+                "ion",
+                "iel",
+                "as",
+                "ir",
+                "ar",
+                "eth",
+                "us"
+            ]
+        },
+        "femenino": {
+            "inicio": [
+                "Lia",
+                "Syl",
+                "Ari",
+                "Ely",
+                "Fae",
+                "Nyra",
+                "Vala",
+                "Thea",
+                "Aela",
+                "Cely"
+            ],
+            "medio": [
+                "ria",
+                "lia",
+                "the",
+                "ira",
+                "ael",
+                "mir",
+                "syl",
+                "nor",
+                "eth",
+                "ora"
+            ],
+            "final": [
+                "ia",
+                "ara",
+                "iel",
+                "eth",
+                "elle",
+                "yn",
+                "ora",
+                "is",
+                "a",
+                "lyn"
+            ]
+        }
+    },
+    "enano": {
+        "masculino": {
+            "inicio": [
+                "Thor",
+                "Dur",
+                "Bor",
+                "Grim",
+                "Kaz",
+                "Bar",
+                "Mor",
+                "Thra",
+                "Dun",
+                "Rok"
+            ],
+            "medio": [
+                "gar",
+                "din",
+                "rak",
+                "grim",
+                "dor",
+                "var",
+                "gor",
+                "kar",
+                "mund",
+                "drak"
+            ],
+            "final": [
+                "son",
+                "rik",
+                "mir",
+                "din",
+                "gar",
+                "or",
+                "ar",
+                "ok",
+                "um",
+                "an"
+            ]
+        },
+        "femenino": {
+            "inicio": [
+                "Bryn",
+                "Dora",
+                "Hel",
+                "Kara",
+                "Mor",
+                "Thra",
+                "Gwen",
+                "Brun",
+                "Disa",
+                "Hild"
+            ],
+            "medio": [
+                "gar",
+                "din",
+                "ra",
+                "grim",
+                "dor",
+                "var",
+                "lin",
+                "mund",
+                "kar",
+                "bel"
+            ],
+            "final": [
+                "a",
+                "ia",
+                "yn",
+                "elle",
+                "eth",
+                "ara",
+                "is",
+                "ora",
+                "lyn",
+                "in"
+            ]
+        }
+    },
+    "orco": {
+        "masculino": {
+            "inicio": [
+                "Gor",
+                "Ur",
+                "Mak",
+                "Thr",
+                "Gar",
+                "Rok",
+                "Brak",
+                "Mug",
+                "Kor",
+                "Zug"
+            ],
+            "medio": [
+                "ug",
+                "ok",
+                "ash",
+                "gar",
+                "mok",
+                "rag",
+                "zug",
+                "nak",
+                "rok",
+                "gor"
+            ],
+            "final": [
+                "nak",
+                "gul",
+                "mok",
+                "tar",
+                "gash",
+                "rok",
+                "zug",
+                "ash",
+                "gar",
+                "uk"
+            ]
+        },
+        "femenino": {
+            "inicio": [
+                "Gra",
+                "Urz",
+                "Mora",
+                "Kra",
+                "Zaga",
+                "Brug",
+                "Thra",
+                "Gora",
+                "Raka",
+                "Maka"
+            ],
+            "medio": [
+                "sha",
+                "gra",
+                "mok",
+                "rag",
+                "nak",
+                "zha",
+                "gar",
+                "rok",
+                "ash",
+                "zug"
+            ],
+            "final": [
+                "a",
+                "ra",
+                "sha",
+                "ga",
+                "nak",
+                "ara",
+                "gra",
+                "za",
+                "ka",
+                "tha"
+            ]
+        }
+    },
+    "gnomo": {
+        "masculino": {
+            "inicio": [
+                "Nib",
+                "Fizz",
+                "Bim",
+                "Tink",
+                "Wob",
+                "Pip",
+                "Gim",
+                "Nix",
+                "Zib",
+                "Tob"
+            ],
+            "medio": [
+                "ble",
+                "wick",
+                "kin",
+                "ber",
+                "dle",
+                "nim",
+                "bit",
+                "fizz",
+                "zor",
+                "bop"
+            ],
+            "final": [
+                "ton",
+                "wick",
+                "kin",
+                "bert",
+                "ble",
+                "son",
+                "bin",
+                "bit",
+                "zor",
+                "ix"
+            ]
+        },
+        "femenino": {
+            "inicio": [
+                "Pip",
+                "Nix",
+                "Tina",
+                "Fiz",
+                "Bim",
+                "Wob",
+                "Glim",
+                "Zina",
+                "Mira",
+                "Nibi"
+            ],
+            "medio": [
+                "ble",
+                "kin",
+                "ria",
+                "dle",
+                "nim",
+                "fizz",
+                "lia",
+                "bella",
+                "nor",
+                "sel"
+            ],
+            "final": [
+                "a",
+                "ia",
+                "elle",
+                "lyn",
+                "ora",
+                "ina",
+                "yn",
+                "is",
+                "ara",
+                "eth"
+            ]
+        }
+    },
+    "goblin": {
+        "masculino": {
+            "inicio": [
+                "Gib",
+                "Snik",
+                "Grub",
+                "Zik",
+                "Mog",
+                "Rat",
+                "Skr",
+                "Nib",
+                "Bog",
+                "Tik"
+            ],
+            "medio": [
+                "ble",
+                "nak",
+                "zig",
+                "gut",
+                "snag",
+                "mog",
+                "rat",
+                "krik",
+                "bog",
+                "tik"
+            ],
+            "final": [
+                "nik",
+                "gut",
+                "zag",
+                "mog",
+                "snik",
+                "rat",
+                "bog",
+                "krik",
+                "tooth",
+                "fang"
+            ]
+        },
+        "femenino": {
+            "inicio": [
+                "Nib",
+                "Snik",
+                "Zig",
+                "Mog",
+                "Ratta",
+                "Grib",
+                "Tik",
+                "Bogga",
+                "Kria",
+                "Snaga"
+            ],
+            "medio": [
+                "ble",
+                "zig",
+                "nak",
+                "gut",
+                "snag",
+                "mog",
+                "rat",
+                "krik",
+                "bog",
+                "tik"
+            ],
+            "final": [
+                "a",
+                "ia",
+                "ra",
+                "ga",
+                "sha",
+                "za",
+                "nak",
+                "ette",
+                "ka",
+                "tha"
+            ]
+        }
+    },
+    "troll": {
+        "masculino": {
+            "inicio": [
+                "Gro",
+                "Bru",
+                "Mok",
+                "Thok",
+                "Rug",
+                "Dro",
+                "Krug",
+                "Bog",
+                "Urg",
+                "Zrok"
+            ],
+            "medio": [
+                "gar",
+                "mok",
+                "rug",
+                "thok",
+                "bog",
+                "zug",
+                "nak",
+                "rok",
+                "drak",
+                "gor"
+            ],
+            "final": [
+                "ash",
+                "mok",
+                "rok",
+                "gar",
+                "nak",
+                "zug",
+                "uk",
+                "tar",
+                "gor",
+                "rag"
+            ]
+        },
+        "femenino": {
+            "inicio": [
+                "Gra",
+                "Mora",
+                "Bruga",
+                "Thra",
+                "Urga",
+                "Zaga",
+                "Droga",
+                "Kraga",
+                "Ruga",
+                "Boga"
+            ],
+            "medio": [
+                "sha",
+                "gra",
+                "rag",
+                "mok",
+                "zha",
+                "nak",
+                "rok",
+                "gar",
+                "tha",
+                "ara"
+            ],
+            "final": [
+                "a",
+                "sha",
+                "ga",
+                "ra",
+                "tha",
+                "nak",
+                "ara",
+                "za",
+                "gra",
+                "ka"
+            ]
+        }
+    },
+    "ogro": {
+        "masculino": {
+            "inicio": [
+                "Bog",
+                "Gro",
+                "Mug",
+                "Rok",
+                "Thok",
+                "Brug",
+                "Dro",
+                "Krag",
+                "Ug",
+                "Zog"
+            ],
+            "medio": [
+                "gar",
+                "mok",
+                "zug",
+                "nak",
+                "rok",
+                "gor",
+                "drak",
+                "rag",
+                "bog",
+                "thok"
+            ],
+            "final": [
+                "uk",
+                "ash",
+                "mok",
+                "rok",
+                "gar",
+                "nak",
+                "zug",
+                "tar",
+                "gor",
+                "rag"
+            ]
+        },
+        "femenino": {
+            "inicio": [
+                "Boga",
+                "Mora",
+                "Graga",
+                "Thra",
+                "Bruga",
+                "Droga",
+                "Raka",
+                "Kraga",
+                "Zaga",
+                "Ugra"
+            ],
+            "medio": [
+                "gar",
+                "rag",
+                "sha",
+                "nak",
+                "mok",
+                "ara",
+                "zha",
+                "rok",
+                "tha",
+                "gra"
+            ],
+            "final": [
+                "a",
+                "ra",
+                "ga",
+                "sha",
+                "tha",
+                "ara",
+                "za",
+                "ka",
+                "gra",
+                "nak"
+            ]
+        }
+    }
+}
