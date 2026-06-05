@@ -25,22 +25,21 @@ def _input_opcion(prompt, opciones):
 
 
 def _seleccionar_raza():
-    print("\nSeleccione una raza para comenzar:\n")
     lista = list(RAZAS.keys())
     for i, raza in enumerate(lista, start=1):
         print(f"{i}. {raza.capitalize()}")
-    idx = _input_int("\nSeleccione una raza: ", min_val=1)
+    idx = _input_int("\nElije una raza: ", min_val=1)
     while idx > len(lista):
         print(f"Opción inválida. Elija entre 1 y {len(lista)}.")
-        idx = _input_int("\nSeleccione una raza: ", min_val=1)
+        idx = _input_int("\nElije una raza: ", min_val=1)
     return lista[idx - 1]
 
 
 def _seleccionar_sexo():
     print("\n1. Masculino")
     print("2. Femenino")
-    opcion = _input_opcion("\nSeleccione sexo (Masculino/Femenino): ", {"1", "2"})
-    return "masculino" if opcion == "1" else "femenino"
+    opcion = _input_opcion("\nElije el sexo (M/F): ", {"m", "f"})
+    return "masculino" if opcion == "m" else "femenino"
 
 
 def _pedir_configuracion():
