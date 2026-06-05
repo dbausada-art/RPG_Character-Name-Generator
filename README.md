@@ -47,7 +47,7 @@ python main.py
 ├── main.py
 ├── generador.py
 ├── utils.py
-├── razas.json
+├── races.json
 └── README.md
 ```
 
