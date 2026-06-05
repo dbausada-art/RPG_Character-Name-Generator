@@ -702,81 +702,81 @@
         }
     },
     "no-muerto": {
-            "masculino": {
-                "inicio": [
-                    "Mor",
-                    "Vor",
-                    "Nec",
-                    "Grim",
-                    "Dread",
-                    "Skel",
-                    "Crypt",
-                    "Zar",
-                    "Vhal",
-                    "Rot"
-                ],
-                "medio": [
-                    "ak",
-                    "or",
-                    "eth",
-                    "ul",
-                    "grim",
-                    "nar",
-                    "vok",
-                    "dran",
-                    "zor",
-                    "thal"
-                ],
-                "final": [
-                    "us",
-                    "ar",
-                    "oth",
-                    "ek",
-                    "ir",
-                    "an",
-                    "or",
-                    "ath",
-                    "ok",
-                    "ul"
-                ]
-            },
-            "femenino": {
-                "inicio": [
-                    "Nyx",
-                    "Mora",
-                    "Vesha",
-                    "Lil",
-                    "Raven",
-                    "Morta",
-                    "Sel",
-                    "Noct",
-                    "Umbra",
-                    "Vel"
-                ],
-                "medio": [
-                    "eth",
-                    "ira",
-                    "ora",
-                    "vyn",
-                    "sha",
-                    "mor",
-                    "thra",
-                    "lys",
-                    "dra",
-                    "zel"
-                ],
-                "final": [
-                    "ia",
-                    "ara",
-                    "eth",
-                    "is",
-                    "yn",
-                    "ora",
-                    "a",
-                    "elle",
-                    "ith",
-                    "ys"
-                ]
-            }
+        "masculino": {
+            "inicio": [
+                "Mor",
+                "Vor",
+                "Nec",
+                "Grim",
+                "Dread",
+                "Skel",
+                "Crypt",
+                "Zar",
+                "Vhal",
+                "Rot"
+            ],
+            "medio": [
+                "ak",
+                "or",
+                "eth",
+                "ul",
+                "grim",
+                "nar",
+                "vok",
+                "dran",
+                "zor",
+                "thal"
+            ],
+            "final": [
+                "us",
+                "ar",
+                "oth",
+                "ek",
+                "ir",
+                "an",
+                "or",
+                "ath",
+                "ok",
+                "ul"
+            ]
+        },
+        "femenino": {
+            "inicio": [
+                "Nyx",
+                "Mora",
+                "Vesha",
+                "Lil",
+                "Raven",
+                "Morta",
+                "Sel",
+                "Noct",
+                "Umbra",
+                "Vel"
+            ],
+            "medio": [
+                "eth",
+                "ira",
+                "ora",
+                "vyn",
+                "sha",
+                "mor",
+                "thra",
+                "lys",
+                "dra",
+                "zel"
+            ],
+            "final": [
+                "ia",
+                "ara",
+                "eth",
+                "is",
+                "yn",
+                "ora",
+                "a",
+                "elle",
+                "ith",
+                "ys"
+            ]
         }
+    }
 }
