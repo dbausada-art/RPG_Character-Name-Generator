@@ -17,11 +17,12 @@ def _input_int(prompt, min_val=None):
 
 
 def _input_opcion(prompt, opciones):
+    opciones = tuple(opciones)
     while True:
         opcion = input(prompt).strip()
         if opcion in opciones:
             return opcion
-        print(f"Opción inválida. Elija: {', '.join(sorted(opciones))}")
+        print(f"Opción inválida. Elija: {' o '.join(opciones)}")
 
 
 def _seleccionar_raza():
@@ -38,8 +39,8 @@ def _seleccionar_raza():
 def _seleccionar_sexo():
     print("\n1. Masculino")
     print("2. Femenino")
-    opcion = _input_opcion("\nElije el sexo (M/F): ", {"m", "f"})
-    return "masculino" if opcion == "m" else "femenino"
+    opcion = _input_opcion("\nElije el sexo (M/F): ", ("M", "F"))
+    return "masculino" if opcion == "M" else "femenino"
 
 
 def _pedir_configuracion():
