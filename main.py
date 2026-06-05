@@ -2,7 +2,7 @@
 from utils import (
     cargar_razas,
     guardar_nombres,
-    limpiar_pantalla
+    limpiar
 )
 from generador import generar_nombre
 
@@ -13,7 +13,7 @@ def main():
 
         razas = cargar_razas()
 
-        limpiar_pantalla()
+        limpiar()
         print("=== GENERADOR DE NOMBRES RPG ===")
         print("\nSeleccione una raza para comenzar:\n")
 
