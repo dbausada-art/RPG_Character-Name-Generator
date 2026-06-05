@@ -16,31 +16,35 @@ def _input_int(prompt, min_val=None):
             print("Entrada inválida. Ingrese un número entero.")
 
 
-def _input_opcion(prompt, opciones):
+def _input_opcion(prompt, opciones, error_msg=None):
     opciones = tuple(opciones)
     while True:
-        opcion = input(prompt).strip()
+        opcion = input(prompt).strip().upper()
         if opcion in opciones:
             return opcion
-        print(f"Opción inválida. Elija: {' o '.join(opciones)}")
+        print(error_msg or f"Opción inválida. Elija: {' o '.join(opciones)}")
 
 
 def _seleccionar_raza():
+    import string
     lista = list(RAZAS.keys())
-    for i, raza in enumerate(lista, start=1):
-        print(f"{i}. {raza.capitalize()}")
-    idx = _input_int("\nElije una raza: ", min_val=1)
-    while idx > len(lista):
-        print(f"Opción inválida. Elija entre 1 y {len(lista)}.")
-        idx = _input_int("\nElije una raza: ", min_val=1)
-    return lista[idx - 1]
+    letras = string.ascii_uppercase[:len(lista)]
+    for letra, raza in zip(letras, lista):
+        print(f"{letra}. {raza.capitalize()}")
+    opcion = _input_opcion("\nElije una raza: ", letras, f"Opción inválida. Elija una letra entre la {letras[0]} a la {letras[-1]}")
+    return lista[letras.index(opcion)]
 
 
 def _seleccionar_sexo():
-    print("\n1. Masculino")
-    print("2. Femenino")
-    opcion = _input_opcion("\nElije el sexo (M/F): ", ("M", "F"))
-    return "masculino" if opcion == "M" else "femenino"
+    print("\n1. Masculino (M)")
+    print("2. Femenino (F)")
+    while True:
+        opcion = input("\nElije el sexo: ").strip().upper()
+        if opcion in ("1", "M"):
+            return "masculino"
+        if opcion in ("2", "F"):
+            return "femenino"
+        print("Opción inválida. Elija 1/M o 2/F.")
 
 
 def _pedir_configuracion():
