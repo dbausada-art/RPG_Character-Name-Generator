@@ -1,7 +1,6 @@
 
 import json
-import os
-
+import subprocess
 
 def cargar_razas():
     with open("races.json", "r", encoding="utf-8") as archivo:
@@ -16,7 +15,4 @@ def guardar_nombres(nombres, nombre_archivo):
 
 def limpiar_pantalla():
 
-    if os.name == "nt":
-        os.system("cls")
-    else:
-        os.system("clear")
+    subprocess.run("cls", shell=True)
