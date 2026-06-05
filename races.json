@@ -622,5 +622,83 @@
                 "nak"
             ]
         }
+    },
+"druida": {
+    "masculino": {
+        "inicio": [
+            "Syl",
+            "Fae",
+            "Oak",
+            "Thorn",
+            "Eld",
+            "Row",
+            "Bram",
+            "Ash",
+            "Ced",
+            "Will"
+        ],
+        "medio": [
+            "an",
+            "or",
+            "iel",
+            "wyn",
+            "dor",
+            "eth",
+            "rin",
+            "thal",
+            "mir",
+            "lor"
+        ],
+        "final": [
+            "ion",
+            "ar",
+            "or",
+            "eth",
+            "iel",
+            "as",
+            "en",
+            "us",
+            "wyn",
+            "ir"
+        ]
+    },
+    "femenino": {
+        "inicio": [
+            "Luna",
+            "Sylva",
+            "Faera",
+            "Nyra",
+            "Elow",
+            "Thalia",
+            "Asha",
+            "Briar",
+            "Willa",
+            "Rowa"
+        ],
+        "medio": [
+            "ria",
+            "wyn",
+            "lia",
+            "the",
+            "mir",
+            "syl",
+            "nor",
+            "eth",
+            "ora",
+            "ael"
+        ],
+        "final": [
+            "ia",
+            "ara",
+            "eth",
+            "elle",
+            "yn",
+            "ora",
+            "is",
+            "a",
+            "lyn",
+            "iel"
+        ]
     }
+}
 }
