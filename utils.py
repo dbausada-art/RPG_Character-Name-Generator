@@ -1,9 +1,13 @@
 
 import json
+import os
 import subprocess
 
+_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 def cargar_razas():
-    with open("races.json", "r", encoding="utf-8") as archivo:
+    path = os.path.join(_BASE_DIR, "races.json")
+    with open(path, "r", encoding="utf-8") as archivo:
         return json.load(archivo)
 
 
