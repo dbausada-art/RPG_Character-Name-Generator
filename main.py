@@ -14,7 +14,8 @@ def main():
         razas = cargar_razas()
 
         limpiar_pantalla()
-        print("\n=== GENERADOR DE NOMBRES RPG ===\n")
+        print("=== GENERADOR DE NOMBRES RPG ===")
+        print("\nSeleccione una raza para comenzar:\n")
 
         lista_razas = list(razas.keys())
 
