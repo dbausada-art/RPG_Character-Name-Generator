@@ -18,5 +18,4 @@ def guardar_nombres(nombres, nombre_archivo):
 
 
 def limpiar_pantalla():
-
-    subprocess.run("cls", shell=True)
+    subprocess.run("cls" if os.name == "nt" else "clear", shell=True)
