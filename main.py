@@ -105,7 +105,7 @@ def main():
 
         opcion = input("\n¿Quieres salir de la aplicación? (S/N): ").strip().upper()
         if opcion == "S":
-            print("\n¡Gracias por usar NameForge RPG!")
+            print("\n¡Gracias por usar NameForge RPG! Que tus aventuras sean legendarias!")
             break
 
 
