@@ -70,8 +70,8 @@ def _generar_nombres(datos, cantidad, min_silabas, max_silabas):
 
 
 def _manejar_guardado(nombres):
-    guardar = input("\n¿Desea guardar los nombres? (s/n): ").strip().lower()
-    if guardar != "s":
+    guardar = input("\n¿Desea guardar los nombres? (S/N): ").strip().upper()
+    if guardar != "S":
         print("\nNo se guardaron los nombres.")
         return
     nombre_archivo = input("Nombre del archivo: ").strip()
@@ -79,7 +79,7 @@ def _manejar_guardado(nombres):
         print("\nNombre inválido. No se guardó nada.")
         return
     guardar_nombres(nombres, f"{nombre_archivo}.txt")
-    print(f"\nArchivo '{nombre_archivo}.txt' guardado correctamente.")
+    print(f"\nArchivo '{nombre_archivo}.txt' guardado correctamente.\n")
 
 
 def main():
@@ -103,10 +103,8 @@ def main():
 
         _manejar_guardado(nombres)
 
-        opcion = input(
-            "\nPresione 1 para menú o cualquier tecla para salir: "
-        ).strip()
-        if opcion != "1":
+        opcion = input("\n¿Quieres salir de la aplicación? (S/N): ").strip().upper()
+        if opcion == "S":
             print("\n¡Hasta luego!")
             break
 
