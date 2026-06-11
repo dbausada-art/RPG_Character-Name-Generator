@@ -1,6 +1,5 @@
 import json
 import os
-import translations
 
 
 def cargar_razas():
@@ -10,10 +9,10 @@ def cargar_razas():
         with open(path, "r", encoding="utf-8") as archivo:
             return json.load(archivo)
     except FileNotFoundError:
-        print(translations.T["file_not_found"].format(path=path))
+        print(f"Error: no se encontró el archivo '{path}'.")
         raise
     except json.JSONDecodeError as e:
-        print(translations.T["invalid_json"].format(e=e))
+        print(f"Error: el archivo JSON no es válido: {e}")
         raise
 
 
@@ -23,7 +22,7 @@ def guardar_nombres(nombres, nombre_archivo):
             for nombre in sorted(nombres):
                 archivo.write(nombre + "\n")
     except OSError as e:
-        print(translations.T["save_error"].format(file=nombre_archivo, e=e))
+        print(f"Error al guardar el archivo '{nombre_archivo}': {e}")
         raise
 
 
