@@ -84,7 +84,7 @@ def _manejar_guardado(nombres):
 
 def main():
     limpiar()
-    print("=== GENERADOR DE NOMBRES RPG ===\n")
+    print("=== NameForge RPG ===\n")
 
     while True:
         raza = _seleccionar_raza()
@@ -105,7 +105,7 @@ def main():
 
         opcion = input("\n¿Quieres salir de la aplicación? (S/N): ").strip().upper()
         if opcion == "S":
-            print("\n¡Hasta luego!")
+            print("\n¡Gracias por usar NameForge RPG!")
             break
 
 
