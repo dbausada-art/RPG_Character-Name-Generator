@@ -94,8 +94,8 @@ def _seleccionar_idioma():
     while True:
         opcion = input(
             "Seleccione un idioma / Select a language:\n"
-            "1) Español\n"
-            "2) English\n"
+            "1. Español\n"
+            "2. English\n"
             "> "
         ).strip()
         if opcion in ("1", "2"):
